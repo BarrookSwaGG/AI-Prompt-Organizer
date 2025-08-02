@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f8f8f8;
+}
+
+textarea, input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.prompt-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+}
+.prompt-card {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.prompt-card button {
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 4px 8px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.prompt-card button:last-child {
+  background: #f44336;
+}
